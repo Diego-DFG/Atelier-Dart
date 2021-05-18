@@ -1,0 +1,35 @@
+:root {
+    /*Cores primárias*/
+    --amarelo: #fabe50;
+    --preto: #333;
+    --branco: #fff;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    background: var(--amarelo);
+}
+
+.navegacao__logo-img {
+    height: 3.5rem;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+.navegacao__lista { 
+    margin-top: 2rem;
+}
+
+.navegacao__lista-link {
+    margin-left: 2rem;
+    padding-right: 2rem;
+    border-right: 1px solid var(--preto);
+    cursor: pointer;
+}
+
+.navegacao__lista-link:nth-child(4) {
+    border: none;
+}
