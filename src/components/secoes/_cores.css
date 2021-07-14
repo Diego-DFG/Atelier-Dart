@@ -1,0 +1,20 @@
+:root {
+    /*Cores*/
+    --preto: #333;
+    --branco: #fff;
+    --verde: #66DE93;
+    --darkBlue: #04009A;
+    --mostarda: goldenrod;
+    --cinza: rgba(0, 0, 0, 0.4);
+
+    /* Bordas */
+    --cards-borda: rgba(0, 0, 0, 0.5);
+
+    /* Box shadow */
+    --sombra: 0px 2px 5px rgba(0, 0, 0, 0.3);
+
+    /*Fundo*/
+    --background-conteudo: rgba(0, 0, 0, 0.05);
+    --background-banner: #fff;
+    --background-banner-div: #04009A;
+}

@@ -1,0 +1,89 @@
+.conteudoCardProdutos {
+    height: 100rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background-conteudo);
+}
+
+.cardProdutos-titulo {
+    color: var(--cinza);
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cardsContainer {
+    display: flex;
+    height: 35rem;
+
+    justify-content: center;
+}
+
+.cards {
+    height: 30rem;
+    width: 20rem;
+    cursor: pointer;
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+    background: var(--branco);
+    box-shadow: var(--sombra);
+}
+
+.cards:nth-child(1) {
+    margin-left: 2rem;
+}
+
+.cards:nth-child(7) {
+    margin-left: 2rem;
+}
+
+.cards__img {
+    height: 60%;
+    width: 100%;
+}
+
+.cards__descricao {
+
+}
+
+.descricao-titulo {
+    width: 40%;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--branco);
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    background: var(--mostarda);
+}
+
+.precos {
+    display: flex;
+    margin-left: 2rem;
+    flex-direction: column;
+}
+
+.preco-antigo {
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+
+.preco-novo-container {
+    display: flex;
+}
+
+.preco-novo {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.preco-novo-par {
+    color: var(--verde);
+    margin-left: 1rem;
+}
+
+.nome-produto {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
